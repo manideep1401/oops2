@@ -147,3 +147,38 @@ int main(){
   }
 }
 ===============================================================================
+
+5th----------
+
+
+#include<stdio.h>
+
+int main(){
+
+ int marks;
+
+   printf("enter the marks : \n");
+    scanf("%d", &marks);
+
+    if (marks > 90){
+       printf("Grade is : A \n");
+    }
+    else if (marks >= 80) {
+
+     printf("grade i b \n");
+    }
+
+    else if(marks > 70){
+    printf("grade isi C \n");
+    }
+
+    else if (marks > 60){
+    printf("grade is D \n");
+    }
+
+    else{
+    printf("you are failed F \n");}
+}
+=-------------------------===========================
+
+
