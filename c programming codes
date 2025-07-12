@@ -1,0 +1,149 @@
+c programmeing codes:
+
+4th_
+#include<stdio.h>
+
+ int main(){
+   int no1,no2,ans,op;
+
+   printf("enter vlues of no1 and no2 : \n");
+   scanf("%d%d" ,&no1, &no2);
+
+   printf("1.addition \n");
+   printf("2.substraction \n");
+   printf("3.Multiplication \n");
+   printf("4.division \n");
+   printf("enter number for operation : \n");
+
+   scanf("%d" ,&op);
+
+   switch(op){
+
+   case 1:ans = no1 +no2;
+   printf("%d + %d = %d" , no1 ,no2, no1 + no2 , ans);
+   break;
+
+   case 2:ans = no1 - no2;
+    printf("%d - %d = %d" , no1 ,no2, no1 - no2 , ans);
+     break;
+
+   case 3:ans = no1*no2;
+     printf("%d * %d = %d" , no1 ,no2, no1 * no2 , ans);
+       break;
+
+   case 4:ans = no1/no2;
+     printf("%d / %d = %d" , no1 ,no2, no1 / no2 , ans);
+       break;
+   }
+    return 0;
+
+ }
+----------------------------------------------------------------------------------
+
+3rd--
+#include<stdio.h>
+
+ int main(){
+   int a ,b;
+
+     printf("Enter first number\n");
+
+     scanf("%d",&a);
+
+     printf("enter second number \n");
+
+     scanf("%d",&b);
+
+     printf("%d + %d = %d" , a , b , a+b);
+
+     return 0;
+ }
+----------------------------------------------------------
+
+2nd--
+#include<stdio.h>
+
+ int main(){
+   int no1,no2;
+   printf("Enter value of no1 : \n");
+   scanf("%d ",&no1);
+
+   printf("Enter value no2: \n");
+   scanf("%d", & no2);
+
+   if (no1 != no2){
+      printf("Both numbers are not equal \n");
+
+   if(no1 > no2){
+     printf("no1 is greater  than no2 \n");
+   }
+
+   else{
+   printf("no2 is not greter than no1");
+   }}
+   else{
+   printf("no1 is reual to no2");
+   }
+   return 0;
+ }
+---------------------------------------------------------------
+
+1st--
+#include<stdio.h>
+
+int main(){
+  int a = 10;
+  int b = 10;
+    if(a==b){
+       printf("a and b are equal");
+
+}
+return 0;
+
+}
+------------------------------------------------------------------------
+0th=--
+
+#include<stdio.h>
+
+ int main(){
+   int a,b,c;
+   a = 10;
+   b = 20;
+   c = 5;
+
+     if (a>b && a>c){
+       printf("a is greter");
+     }
+     else if(b>c && b>a){
+
+        printf("b is greater");
+      }
+      else{
+      printf("c is greater");
+      }
+      return 0;
+ }
+
+
+-------------------------------------------------------------------------------
+
+-1thp=-p=[===
+
+
+
+#include <stdio.h>
+
+int main(){
+ int a, b;
+  a = 56;
+  b = 58;
+
+  if( a>b){
+  printf(" a is greater");
+  }
+  else{
+  printf("b is greater");
+  }
+}
+===============================================================================
